@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText">
+
+    <View
+        android:id="@+id/label_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@id/positive_button"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintHorizontal_weight="0"
+        app:layout_constraintLeft_toRightOf="@id/negative_button"
+        app:layout_constraintRight_toLeftOf="@id/positive_button"
+        app:layout_constraintTop_toTopOf="@id/positive_button"
+        app:layout_goneMarginStart="60dp"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/label_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Personalize Interests"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@id/label_step_number"
+        app:layout_constraintLeft_toLeftOf="@id/label_background"
+        app:layout_constraintTop_toTopOf="@id/label_background"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/label_step_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Step 2 of 4"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/label_background"
+        app:layout_constraintLeft_toLeftOf="@id/label_background"
+        app:layout_constraintTop_toBottomOf="@id/label_description" />
+
+    <Button
+        android:id="@+id/positive_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/colorAccent"
+        android:padding="20dp"
+        android:text="Next"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="2.0"
+        app:layout_constraintLeft_toRightOf="@id/label_background"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/negative_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="100dp"
+        android:background="@android:color/holo_blue_dark"
+        android:padding="20dp"
+        android:text="No, thanks"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="2.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/label_background"
+        tools:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

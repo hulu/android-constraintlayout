@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><!--This layout could be defined with other elements but we wanted to show any nested
+configuration to directly compare with the constraint layout version-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.percentlayout.widget.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/playback_view"
+                android:background="@android:color/black"
+                app:layout_aspectRatio="178%"
+                app:layout_widthPercent="100%"
+                tools:background="@tools:sample/backgrounds/scenic"/>
+
+        </androidx.percentlayout.widget.PercentRelativeLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:elevation="0dp">
+
+                <RelativeLayout
+                    android:id="@+id/meta_bar"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/player_title_bar_height"
+                    android:background="@color/colorAccent">
+
+                    <TextView
+                        android:id="@+id/meta_bar_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:paddingStart="@dimen/playback_guide_item_padding"
+                        android:paddingEnd="@dimen/playback_guide_item_padding"
+                        android:text="@string/app_name" />
+                </RelativeLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/guide_view"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_green_dark"
+                tools:listitem="@layout/tv_show_guide_item_relative_layout"
+                tools:visibility="visible" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="@dimen/min_touchable_icon_size"
+        android:layout_height="@dimen/min_touchable_icon_size"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:contentDescription="@string/maximize"
+        android:src="@drawable/ic_baseline_fullscreen" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/playback_guide_item_max_height"
+    android:padding="@dimen/playback_guide_item_padding">
+
+    <androidx.percentlayout.widget.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            app:layout_widthPercent="85%">
+
+            <TextView
+                android:id="@+id/tv_show_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                tools:text="@tools:sample/lorem" />
+
+            <TextView
+                android:id="@+id/tv_show_item_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                tools:text="@tools:sample/lorem" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_alignParentEnd="true"
+            app:layout_widthPercent="15%" />
+
+    </androidx.percentlayout.widget.PercentRelativeLayout>
+
+</RelativeLayout>

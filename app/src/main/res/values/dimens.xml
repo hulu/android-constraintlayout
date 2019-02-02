@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_touchable_icon_size">48dp</dimen>
+    <dimen name="player_title_bar_height">70dp</dimen>
+    <dimen name="playback_view_height">400dp</dimen>
+    <dimen name="playback_collapsed_view_height">260dp</dimen>
+    <dimen name="playback_guide_item_padding">15dp</dimen>
+    <dimen name="playback_guide_item_min_height">80dp</dimen>
+    <dimen name="playback_guide_item_max_height">120dp</dimen>
+    <integer name="collapsing_animation_duration">3000</integer>
+    <dimen name="player_overlay_regular_icon_size">70dp</dimen>
+    <dimen name="player_overlay_big_icon_size">150dp</dimen>
+</resources>

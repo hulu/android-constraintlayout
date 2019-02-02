@@ -1,0 +1,897 @@
+/**
+This is an static response from Knowledge Graph Search API
+GET https://kgsearch.googleapis.com/v1/entities:search?indent=true&languages=en&limit=50&query=Hulu&types=CreativeWork&types=TVSeries&key=[YOUR_API_KEY]
+The request is looking for TVSeries that are related to Hulu.
+https://developers.google.com/knowledge-graph/ for reference
+Replacing the [YOUR_API_KEY] with an actual google developer API key will allow this to work hitting
+the actual service.
+**/
+
+[
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11cn6by5z4",
+      "name": "The Handmaid's Tale",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "image": {
+        "contentUrl": "http://t1.gstatic.com/images?q=tbn:ANd9GcTnrOD50o50FkhUj_k6BBtxNqz7BKNbk5CebTih8fePZZblg4By",
+        "url": "https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale_(TV_series)"
+      },
+      "detailedDescription": {
+        "articleBody": "The Handmaid's Tale is an American dystopian drama web television series created by Bruce Miller, based on the 1985 novel of the same name by Margaret Atwood. ",
+        "url": "https://en.wikipedia.org/wiki/The_Handmaid's_Tale_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 17.18438
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11gc9g648n",
+      "name": "The House: A Hulu Halloween Anthology",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "TV program"
+    },
+    "resultScore": 8.377628
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11dz40vxsx",
+      "name": "The New Hulu Experience",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "TV program"
+    },
+    "resultScore": 6.415369
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11f3jnnn1s",
+      "name": "Garfield and Friends - Hulu Edition",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "TV show"
+    },
+    "resultScore": 5.789869
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11f9w_lc__",
+      "name": "Solar Opposites",
+      "@type": [
+        "Thing",
+        "TVSeries"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "Solar Opposites is an upcoming American adult animated comedy web television series created by Justin Roiland and Mike McMahan that is set to premiere in 2020 on Hulu.",
+        "url": "https://en.wikipedia.org/wiki/Solar_Opposites",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.713533
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11clklld24",
+      "name": "Shut Eye",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American drama series",
+      "detailedDescription": {
+        "articleBody": "Shut Eye is an American drama television series created by Leslie Bohem, airing on the streaming service Hulu. It was given a straight-to-series 10-episode order. All ten episodes became available on December 7, 2016. A second season was ordered on March 20, 2017 which was released on December 6, 2017. ",
+        "url": "https://en.wikipedia.org/wiki/Shut_Eye",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.389755
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11gnsng4c1",
+      "name": "Wu-Tang: An American Saga",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American drama miniseries",
+      "detailedDescription": {
+        "articleBody": "Wu-Tang: An American Saga is an upcoming American drama web television miniseries, created by RZA and Alex Tse, that is set to premiere on Hulu.",
+        "url": "https://en.wikipedia.org/wiki/Wu-Tang:_An_American_Saga",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.388211
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0k91ck3",
+      "name": "Larry King Now",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Talk show",
+      "detailedDescription": {
+        "articleBody": "Larry King Now is a talk show hosted by Larry King created by Shawn Southwick King, and available on Ora TV, Hulu and RT America. Launched on July 17, 2012, the series features interviews with newsmakers, celebrities, world leaders, and Internet stars. The show is similar to his previous CNN program, Larry King Live.\n",
+        "url": "https://en.wikipedia.org/wiki/Larry_King_Now",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.337444
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/07ch1yn",
+      "name": "The Awesomes",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American animated series",
+      "detailedDescription": {
+        "articleBody": "The Awesomes is an American adult animated comedy series created by Seth Meyers and Mike Shoemaker for Hulu. Meyers and Shoemaker serve as executive producers alongside Lorne Michaels. It debuted on August 1, 2013 and ended on November 3, 2015.",
+        "url": "https://en.wikipedia.org/wiki/The_Awesomes",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.232762
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11hdc2zq2l",
+      "name": "PEN15",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "PEN15 is an upcoming American comedy web television series, created by Maya Erskine, Anna Konkle, and Sam Zvibleman, that is set to premiere on February 8, 2019, on Hulu. ",
+        "url": "https://en.wikipedia.org/wiki/PEN15",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.216195
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11fj327yr3",
+      "name": "The Act",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "The Act is an upcoming American true crime anthology drama web television series set to premiere on March 20, 2019, on Hulu.",
+        "url": "https://en.wikipedia.org/wiki/The_Act_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.210824
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11gnrlz9mr",
+      "name": "Crossing Swords",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "Crossing Swords is an upcoming American adult animated comedy web television series, created by John Harvatine IV and Tom Root, that is set to premiere in 2020 on Hulu. ",
+        "url": "https://en.wikipedia.org/wiki/Crossing_Swords",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.101437
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11ghn6hywx",
+      "name": "Ramy",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "Ramy is an upcoming American comedy web television series set to premiere on Hulu.",
+        "url": "https://en.wikipedia.org/wiki/Ramy_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.069534
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11c60n99s2",
+      "name": "Hard Sun",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American-British television series",
+      "detailedDescription": {
+        "articleBody": "Hard Sun is a pre-apocalyptic British-American television crime drama series, created and written by Neil Cross, starring Agyness Deyn and Jim Sturgess as the principal characters, DI Elaine Renko and DCI Charlie Hicks. ",
+        "url": "https://en.wikipedia.org/wiki/Hard_Sun",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 2.006206
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11g30zpzq5",
+      "name": "Light as a Feather",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series"
+    },
+    "resultScore": 1.9474
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11ggfrw8d8",
+      "name": "Bad Banks",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Television series",
+      "detailedDescription": {
+        "articleBody": "Bad Banks is a German-Luxembourgian television series first aired in February 2018. In March 2018, it was renewed for a second season. In the U.S., the series was acquired by Hulu.",
+        "url": "https://en.wikipedia.org/wiki/Bad_Banks",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.829834
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11bxjfj_6_",
+      "name": "Chance",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American television series",
+      "detailedDescription": {
+        "articleBody": "Chance is an American television series created by Kem Nunn and Alexandra Cunningham starring Hugh Laurie. The series is based on the book by Nunn of the same name and was ordered straight-to-series on January 6, 2016, with a straight two-season-order containing twenty episodes. ",
+        "url": "https://en.wikipedia.org/wiki/Chance_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.794601
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0106bhw5",
+      "name": "Deadbeat",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American comedy series",
+      "detailedDescription": {
+        "articleBody": "Deadbeat is an American supernatural comedy series created by Cody Heller and Brett Konner about medium Kevin Pacalioglu, played by Tyler Labine, and was first released on Hulu on April 9, 2014. ",
+        "url": "https://en.wikipedia.org/wiki/Deadbeat_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      },
+      "url": "http://www.hulu.com/deadbeat"
+    },
+    "resultScore": 1.770505
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11g1pmwwkw",
+      "name": "Shrill",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "Shrill is an upcoming American comedy web television series, based on the book Shrill: Notes from a Loud Woman by Lindy West, that is set to premiere on March 15, 2019, on Hulu.",
+        "url": "https://en.wikipedia.org/wiki/Shrill_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.726076
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/07cf2_r",
+      "name": "Watch What Happens Live with Andy Cohen",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American talk show",
+      "detailedDescription": {
+        "articleBody": "Watch What Happens Live with Andy Cohen is an American pop culture-based late-night talk show hosted by Andy Cohen that premiered on July 16, 2009. It features Bravo's own reality programming in the manner of an aftershow, and celebrities' recent news. ",
+        "url": "https://en.wikipedia.org/wiki/Watch_What_Happens_Live_with_Andy_Cohen",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      },
+      "url": "http://www.bravotv.com/watch-what-happens-live"
+    },
+    "resultScore": 1.615649
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0k0tmfs",
+      "name": "Up to Speed",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Web series",
+      "detailedDescription": {
+        "articleBody": "Up to Speed is a historical travel web series starring Timothy \"Speed\" Levitch and directed by Richard Linklater airing on Hulu.",
+        "url": "https://en.wikipedia.org/wiki/Up_to_Speed",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.572158
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11bwqm4w1d",
+      "name": "11.22.63",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American thriller series",
+      "detailedDescription": {
+        "articleBody": "11.22.63 is an American science fiction thriller miniseries based on the book 11/22/63 by Stephen King, and consisting of eight episodes. The series is executive-produced by J. J. Abrams, King, Bridget Carpenter and Bryan Burk, and produced by James Franco, who also has the main role. It premiered on Hulu on February 15, 2016, and was received positively by critics.",
+        "url": "https://en.wikipedia.org/wiki/11.22.63",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.468327
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11bw615hjp",
+      "name": "Politicking with Larry King",
+      "@type": [
+        "Thing",
+        "TVSeries"
+      ],
+      "description": "American talk show",
+      "detailedDescription": {
+        "articleBody": "Politicking with Larry King is an American weekly political talk show hosted by Larry King which premiered on June 13, 2013. The guests of the show include various political figures and world leaders. ",
+        "url": "https://en.wikipedia.org/wiki/Politicking_with_Larry_King",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.453717
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11b7xs6bd0",
+      "name": "The Last Cop",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Japanese television series",
+      "detailedDescription": {
+        "articleBody": "The Last Cop is a Japanese television drama series based on the 2010 German television series Der letzte Bulle. The Japanese version was developed by NTV and Hulu Japan. The first episode premiered on NTV on 19 June 2015. It received a viewership rating of 12.9%. The rest of six episodes are streaming on Hulu.\n",
+        "url": "https://en.wikipedia.org/wiki/The_Last_Cop_(2015_TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.449567
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/02pzl05",
+      "name": "Nobody's Boy: Remi",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Japanese animated series",
+      "detailedDescription": {
+        "articleBody": "Nobody's Boy: Remi is a Japanese anime series by Tokyo Movie Shinsha. The story is based upon French author Hector Malot's novel Sans Famille in France. ",
+        "url": "https://en.wikipedia.org/wiki/Nobody's_Boy:_Remi",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      },
+      "url": "http://www.tms-e.com/library/old/tv/data/t_remi.html"
+    },
+    "resultScore": 1.420975
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0q2fgc0",
+      "name": "Behind the Mask",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Television series",
+      "detailedDescription": {
+        "articleBody": "Behind the Mask is a Hulu original documentary series chronicles the trials and tribulations of sports mascots. The 20-episode series focuses on the unsung heroes of sports, mascots.\n",
+        "url": "https://en.wikipedia.org/wiki/Behind_the_Mask_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.40892
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11f15hn_6w",
+      "name": "I Love You, America with Sarah Silverman",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American television show"
+    },
+    "resultScore": 1.394249
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0gmg168",
+      "name": "The Morning After",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Web series",
+      "detailedDescription": {
+        "articleBody": "The Morning After is a Hulu original web series that premiered on January 17, 2011 and ended April 24, 2014. It was produced by Hulu and Jace Hall's HDFilms, streaming Monday through Friday. ",
+        "url": "https://en.wikipedia.org/wiki/The_Morning_After_(web_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      },
+      "url": "http://www.hulu.com/the-morning-after"
+    },
+    "resultScore": 1.390978
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11ggr7rk5t",
+      "name": "Little Fires Everywhere",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American drama miniseries"
+    },
+    "resultScore": 1.388069
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11f8p31hlr",
+      "name": "Into the Dark",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "Into the Dark is an American horror anthology web television series that premiered on October 5, 2018, on Hulu. The series consists of twelve episodes, each released a month apart, that center on a holiday found in the month they are released.",
+        "url": "https://en.wikipedia.org/wiki/Into_the_Dark_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.364152
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11cp7jdp5m",
+      "name": "Crow's Blood",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Japanese television miniseries",
+      "detailedDescription": {
+        "articleBody": "Crow's Blood is a Japanese horror streaming television drama miniseries with an original story concept written by Yasushi Akimoto and executive produced by Darren Lynn Bousman.\n",
+        "url": "https://en.wikipedia.org/wiki/Crow's_Blood",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.351486
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/012z2b4m",
+      "name": "Toonami",
+      "@type": [
+        "Thing",
+        "TVSeries"
+      ],
+      "image": {
+        "contentUrl": "http://t1.gstatic.com/images?q=tbn:ANd9GcRWI5lTdeeuhEajqcnw4hEbspcTjLdeA1mPkOgetfjGG7z05Fv1",
+        "url": "https://en.wikipedia.org/wiki/Toonami_(India)"
+      },
+      "detailedDescription": {
+        "articleBody": "Toonami was a 24-hour channel in India and a former block on India's first kids channel, Cartoon Network.",
+        "url": "https://en.wikipedia.org/wiki/Toonami_(India)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      },
+      "url": "http://cartoonnetwork.com.pk/"
+    },
+    "resultScore": 1.351322
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0h2bknp",
+      "name": "Ark",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Web series",
+      "detailedDescription": {
+        "articleBody": "Ark is a web series set on a mysterious bio-dome spaceship – the Ark. The two main characters, Connie and Daryl, explore the vacant ship trying to learn their fate. The show's episodes run from 3 to 9 minutes in length. ",
+        "url": "https://en.wikipedia.org/wiki/Ark_(web_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.35009
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11c6146rkl",
+      "name": "Future Man",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "Future Man is an American comedy web television series created by Howard Overman, Kyle Hunter, and Ariel Shaffir that premiered on November 14, 2017 on Hulu. The series follows an underachieving janitor who is called upon to save the world. ",
+        "url": "https://en.wikipedia.org/wiki/Future_Man_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.275272
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0_95xl_",
+      "name": "The Fashion Fund",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Web series",
+      "detailedDescription": {
+        "articleBody": "The Fashion Fund is a Hulu web series that originally aired in 2011. The show was restarted in 2014 on Ovation TV.",
+        "url": "https://en.wikipedia.org/wiki/The_Fashion_Fund",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.269538
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11hbv8yzfj",
+      "name": "All Night",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "All Night is an American teen comedy web television series created by Jason Ubaldi that premiered on May 11, 2018, on Hulu. The series stars a large ensemble of actors including Chris Avila, Brec Bassinger, Chanel Celaya, Ty Doran, Teala Dunn, Allie Grant, Caleb Ray Gallegos, and Eva Gutowski. ",
+        "url": "https://en.wikipedia.org/wiki/All_Night_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.235839
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11c3nxb6r8",
+      "name": "Difficult People",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "Difficult People is an American dark comedy web television series created by Julie Klausner. Klausner stars alongside Billy Eichner as two struggling and jaded comedians living in New York City; the duo seemingly hate everyone but each other. ",
+        "url": "https://en.wikipedia.org/wiki/Difficult_People",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.223245
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/07chh26",
+      "name": "Women Behind Bars",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American television series",
+      "detailedDescription": {
+        "articleBody": "Women Behind Bars is a 2008 American reality television series.",
+        "url": "https://en.wikipedia.org/wiki/Women_Behind_Bars_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.220576
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/05lwbt",
+      "name": "Shorties Watchin' Shorties",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Television show",
+      "detailedDescription": {
+        "articleBody": "Shorties Watchin' Shorties was a television show broadcast on Comedy Central.\nThe show is made up of various short animated clips with audio from comedians' stand up routines. ",
+        "url": "https://en.wikipedia.org/wiki/Shorties_Watchin'_Shorties",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.193773
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11b6t79yz0",
+      "name": "Adotada",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Brazilian television series",
+      "detailedDescription": {
+        "articleBody": "Adotada is an Brazilian reality television series that aired on MTV starring Maria Eugênia Suconic. It is a spin-off of Papito in Love on which Maria previously gained fame for being ex-girlfriend of the singer Supla. ",
+        "url": "https://en.wikipedia.org/wiki/Adotada",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.185314
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0crc7j_",
+      "name": "Star Driver",
+      "@type": [
+        "Thing",
+        "TVSeries"
+      ],
+      "description": "Japanese animated series",
+      "detailedDescription": {
+        "articleBody": "Star Driver also known as Star Driver: Kagayaki no Takuto is a 2010 Japanese anime television series created and animated by Bones. The series is directed by Takuya Igarashi, with character designs by Yoshiyuki Ito and Hiroka and Misa Mizuya. The anime premiered on October 3, 2010, on MBS-TBS's prime Sunday 5pm timeslot, replacing Sengoku Basara II. Aniplex of America premiered the first episode at the 2010 New York Comic Con/New York Anime Festival on October 9, 2010. ",
+        "url": "https://en.wikipedia.org/wiki/Star_Driver",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      },
+      "url": "http://s.mxtv.jp/star_driver/"
+    },
+    "resultScore": 1.179313
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11ffv679rr",
+      "name": "Dollface",
+      "@type": [
+        "Thing",
+        "TVSeries"
+      ],
+      "description": "American web television series",
+      "detailedDescription": {
+        "articleBody": "Dollface is an upcoming American comedy web television series created by Jordan Weiss that is set to premiere on Hulu.",
+        "url": "https://en.wikipedia.org/wiki/Dollface",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.168836
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11gm8fdd39",
+      "name": "State of the Culture",
+      "@type": [
+        "Thing",
+        "TVSeries"
+      ],
+      "description": "American talk show",
+      "detailedDescription": {
+        "articleBody": "State of the Culture is an American late-night talk show created by Joe Budden and Sean Combs, that premiered on September 10, 2018 on Revolt. The show is hosted by Joe Budden and Remy Ma and co-hosted by Scottie Beam and Brandon \"Jinx\" Jenkins.",
+        "url": "https://en.wikipedia.org/wiki/State_of_the_Culture",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.167175
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/02rq0fn",
+      "name": "A Day in the Life",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Television series",
+      "detailedDescription": {
+        "articleBody": "A Day in the Life is a 2011 internet television documentary web series, distributed by Hulu as its first original long-form programming venture. ",
+        "url": "https://en.wikipedia.org/wiki/A_Day_in_the_Life_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      },
+      "url": "http://www.hulu.com/a-day-in-the-life"
+    },
+    "resultScore": 1.121708
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11f35gzgf4",
+      "name": "The First",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American-British web television series",
+      "detailedDescription": {
+        "articleBody": "The First is an American-British drama web television series created by Beau Willimon and starring Sean Penn and Natascha McElhone. The show portrays members of a team of astronauts as they become the first humans to visit Mars. ",
+        "url": "https://en.wikipedia.org/wiki/The_First_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.117353
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0j_2wtb",
+      "name": "Spoilers with Kevin Smith",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Talk show",
+      "detailedDescription": {
+        "articleBody": "Spoilers with Kevin Smith is a film review talk show that premiered June 4, 2012 on Hulu. The show, described as an \"anti-movie review\" show, is hosted by Kevin Smith and produced by Smith's SModcast Pictures.\n",
+        "url": "https://en.wikipedia.org/wiki/Spoilers_with_Kevin_Smith",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.113824
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11fctq_n6z",
+      "name": "Amanpour &amp; Company",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Television program",
+      "detailedDescription": {
+        "articleBody": "Amanpour &amp; Company is a late-night global-affairs interview television program hosted by Christiane Amanpour. The hour-long show premiered on PBS on September 10, 2018, as an expanded version of the CNN International show, Amanpour, augmented with interviews by correspondents at the WNET studios in New York.",
+        "url": "https://en.wikipedia.org/wiki/Amanpour_%26_Company",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.103775
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11f3w6n3jj",
+      "name": "Catch-22",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American-British-Italian drama miniseries",
+      "detailedDescription": {
+        "articleBody": "Catch-22 is an upcoming American-British-Italian drama miniseries based on the book of the same name written by Joseph Heller that is set to premiere on Hulu in the United States, Channel 4 in the United Kingdom, and Sky Italia in Italy. ",
+        "url": "https://en.wikipedia.org/wiki/Catch-22_(miniseries)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.089458
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/g/11ddzj_3yc",
+      "name": "Hunter Street",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "Comedy series",
+      "detailedDescription": {
+        "articleBody": "Hunter Street is a comedy adventure television series created by Reint Schölvinck and Melle Runderkamp that premiered on Nickelodeon on March 11, 2017. ",
+        "url": "https://en.wikipedia.org/wiki/Hunter_Street_(TV_series)",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      }
+    },
+    "resultScore": 1.085406
+  },
+  {
+    "@type": "EntitySearchResult",
+    "result": {
+      "@id": "kg:/m/0jt1q7m",
+      "name": "The Mindy Project",
+      "@type": [
+        "TVSeries",
+        "Thing"
+      ],
+      "description": "American comedy series",
+      "detailedDescription": {
+        "articleBody": "The Mindy Project is an American romantic comedy television series that premiered on Fox on September 25, 2012. It then began airing on Hulu on September 15, 2015. ",
+        "url": "https://en.wikipedia.org/wiki/The_Mindy_Project",
+        "license": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+      },
+      "url": "http://www.fox.com/the-mindy-project/"
+    },
+    "resultScore": 1.082759
+  }
+]
+

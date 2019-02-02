@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/player_scene"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/three_button_layout_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:onClick="onMeetupDemoClick"
+        android:padding="20dp"
+        android:text="Three Buttons"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/constraint_set_layout_button"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/constraint_set_layout_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:onClick="onMeetupDemoClick"
+        android:padding="20dp"
+        android:text="Constraint Set Layout"
+        app:layout_constraintBottom_toTopOf="@id/constraint_states_layout_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/three_button_layout_button" />
+
+    <Button
+        android:id="@+id/constraint_states_layout_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:onClick="onMeetupDemoClick"
+        android:padding="20dp"
+        android:text="Constraint States Layout"
+        app:layout_constraintBottom_toTopOf="@id/motion_layout_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraint_set_layout_button" />
+
+    <Button
+        android:id="@+id/motion_layout_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:onClick="onMeetupDemoClick"
+        android:padding="20dp"
+        android:text="Motion Layout"
+        app:layout_constraintBottom_toTopOf="@id/frameset_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/constraint_states_layout_button" />
+
+    <Button
+        android:id="@+id/frameset_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:onClick="onMeetupDemoClick"
+        android:padding="20dp"
+        android:text="FrameSet Layout"
+        app:layout_constraintBottom_toTopOf="@id/relative_layout_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/motion_layout_button" />
+
+    <Button
+        android:id="@+id/relative_layout_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:onClick="onMeetupDemoClick"
+        android:padding="20dp"
+        android:text="Relative Layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frameset_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/playback_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/black"
+        app:layout_constraintDimensionRatio="H,16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/full_screen_toggle_button"
+        android:layout_width="@dimen/min_touchable_icon_size"
+        android:layout_height="@dimen/min_touchable_icon_size"
+        android:background="@null"
+        android:contentDescription="@string/maximize"
+        android:src="@drawable/ic_baseline_fullscreen"
+        app:layout_constraintEnd_toEndOf="@id/playback_view"
+        app:layout_constraintTop_toTopOf="@id/playback_view" />
+
+
+    <View
+        android:id="@+id/meta_bar"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/player_title_bar_height"
+        android:background="@color/colorAccent"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@id/guide_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/playback_view" />
+
+    <TextView
+        android:id="@+id/meta_bar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/playback_guide_item_padding"
+        android:paddingEnd="@dimen/playback_guide_item_padding"
+        android:text="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@id/meta_bar"
+        app:layout_constraintStart_toStartOf="@id/meta_bar"
+        app:layout_constraintTop_toTopOf="@id/meta_bar" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/guide_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_green_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/meta_bar"
+        tools:listitem="@layout/tv_show_guide_item_constraint_layout"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
